@@ -1,0 +1,21 @@
+# Dependencies and build output are created inside the image.
+node_modules
+.output
+dist
+.tanstack
+.oj-cache
+tsconfig.tsbuildinfo
+
+# Repo / editor metadata — not needed in the image.
+.git
+.gitignore
+.lovable
+.jj
+
+# Docker shouldn't ignore itself recursively.
+Dockerfile
+.dockerignore
+
+# Local-only env files: pass secrets with -e or a secrets manager instead.
+.env
+.env.*

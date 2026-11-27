@@ -5,9 +5,9 @@ import { Mic, Square, Volume2, Send, Zap } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Voice Seve — Electricity bill help by voice" },
+      { title: "Voice Seva — Electricity bill help by voice" },
       { name: "description", content: "Ask electricity bill questions by voice in Tamil or English and hear the answer." },
-      { property: "og:title", content: "Voice Seve — Electricity bill help by voice" },
+      { property: "og:title", content: "Voice Seva — Electricity bill help by voice" },
       { property: "og:description", content: "Speak your electricity bill question in Tamil or English. Read and hear the answer." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -115,7 +115,7 @@ function Index() {
           <div className="flex items-center gap-2">
             <span className="grid size-10 place-items-center rounded-full bg-secondary text-secondary-foreground"><Zap className="size-5" /></span>
             <div>
-              <h1 className="text-2xl font-extrabold leading-none">Voice Seve</h1>
+              <h1 className="text-2xl font-extrabold leading-none">Voice Seva</h1>
               <p className="text-sm text-muted-foreground">{lang === "ta" ? "மின் கட்டண உதவி" : "Electricity bill help"}</p>
             </div>
           </div>
